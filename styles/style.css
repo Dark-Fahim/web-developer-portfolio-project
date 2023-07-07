@@ -6,11 +6,17 @@
     border: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .header{
     background: #FFF8F3;
-    height: 100vh;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-image: url('../images/developer.png');
+    background-position: left; */
+    /* height: 100vh; */
 }
 nav{
     display: flex;
@@ -49,11 +55,12 @@ nav li{
 .banner{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .banner-content{
     margin-right: 250px;
+    margin-left: 230px;
 }
 
 .banner-title{
@@ -91,4 +98,6 @@ nav li{
 
 .banner > .banner-img{
     height: 670px;
+    /* margin-right: 100px;
+    margin-left: 250px; */
 }
