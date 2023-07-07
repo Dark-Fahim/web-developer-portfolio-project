@@ -18,6 +18,26 @@
     background-position: left; */
     /* height: 100vh; */
 }
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.section-title{
+    color:  #181818;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;  
+}
+
+.description{
+    color:  #757575;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -100,4 +120,11 @@ nav li{
     height: 670px;
     /* margin-right: 100px;
     margin-left: 250px; */
+}
+
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;   
+    padding: 130px; 
+    margin: 130px 0;
 }
