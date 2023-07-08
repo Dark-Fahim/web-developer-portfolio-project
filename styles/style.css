@@ -232,7 +232,12 @@ nav li{
 
 
 .footer{
-    background: #FFF8F3;
+    background: #FFF8F3;;
+}
+
+.footer > .container{
+    margin-bottom: 0;
+    padding-bottom: 0
 }
 
 .footer-section{
@@ -256,4 +261,20 @@ nav li{
 .footer-column>a{
     padding-right: 20px;
     margin-right: 10px;
+}
+
+.footer-column input{
+    padding: 15px 300px 15px 15px;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-column textarea{
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 15px 300px 300px 15px;
 }
