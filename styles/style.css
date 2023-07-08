@@ -190,6 +190,11 @@ nav li{
     padding-right: 80px;
 }
 
+.resume-item{
+    margin: 20px 0;
+    padding-right: 70px;
+}
+
 .resume-heading{
     color: #474747;
     font-size: 30px;
@@ -223,4 +228,32 @@ nav li{
 .download-cv-btn{
     text-align: center;
     margin-top: 70px;
+}
+
+
+.footer{
+    background: #FFF8F3;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    gap: 100px;
+}
+.footer-title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.section-description{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.footer-column>a{
+    padding-right: 20px;
+    margin-right: 10px;
 }
